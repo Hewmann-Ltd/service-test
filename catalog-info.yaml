@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-test
+  title: Test
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://Hewmann-Ltd.github.io/service-test/
+      title: Live website
+  annotations:
+    github.com/project-slug: Hewmann-Ltd/service-test
+spec:
+  type: website
+  owner: unknown
+  lifecycle: experimental
